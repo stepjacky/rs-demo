@@ -1,0 +1,36 @@
+{
+  "name": "tn-mobile2",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@opentiny/vue": "^3.20.0",
+    "@opentiny/vue-locale": "^3.20.0",
+    "@primevue/themes": "^4.2.4",
+    "bootstrap": "^5.3.3",
+    "dayjs": "^1.11.13",
+    "font-awesome": "4.7.0",
+    "primevue": "^4.2.4",
+    "vue": "^3.5.13",
+    "vue-i18n": "^10.0.5",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.1.8",
+    "@rsbuild/plugin-babel": "^1.0.3",
+    "@rsbuild/plugin-less": "^1.1.0",
+    "@rsbuild/plugin-sass": "^1.1.2",
+    "@rsbuild/plugin-vue": "^1.0.5",
+    "@rsbuild/plugin-vue-jsx": "^1.0.1",
+    "@rsdoctor/rspack-plugin": "^0.4.11",
+    "@unocss/postcss": "^0.65.1",
+    "unocss": "^0.65.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.7.2"
+  }
+}
